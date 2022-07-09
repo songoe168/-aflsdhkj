@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h3>회원가입</h3>
+  </header>
+  <div id="main">
+    <form name="Sign Up" action="git" method="post">
+    <div>
+
+        <p>
+          <h2>*필수입력정보</h2>
+        </p>
+        <table>
+        <tr>
+          <td class="as">
+            <p>
+              아이디
+            </p>
+          </td>
+          <td class="wq">
+            <input type="text" name="" id="" class="winput" required>
+          </td>
+          <td>
+            <button class="qw" onclick="asd()">중복확인</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="as">
+            <p>
+              비밀번호
+            </p>
+          </td>
+          <td class="wq">
+            <input type="password" name="" class="winput" id="" placeholder="10자이상의 영문과 숫자조합" required>
+          </td>
+        </tr>
+        <tr>
+          <td class="as">
+            <p>
+              이름
+            </p>
+          </td>
+          <td class="wq">
+            <input type="text" name="" class="winput" id=""required>
+          </td>
+        </tr>
+        <tr>
+          <td class="as">
+            <p>
+              연락처
+            </p>
+          </td>
+          <td class="wq">
+            <input type="text" name="" class="winput" id=""required>
+          </td>
+        </tr>
+        <tr>
+          <td class="as">
+            <p>
+              이메일
+            </p>
+          </td>
+          <td class="wq">
+            <input type="email" name="" class="winput" id=""required>
+          </td>
+        </tr>
+        <tr>
+          <td style="height:23px;" class="as">
+            <P>
+              전자우편신청
+            </P>
+          </td>
+          <td class="wq">
+            <input type="radio" name="asd" id="yes" value="예">
+            <label for="yes">예</label>
+            <input type="radio" name="asd" id="no" value="아니요">
+            <label for="no">아니요</label>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <p>
+        <h2>*선택입력정보</h2>
+      </p>
+      <table class="sa">
+        <tr>
+          <td class="as">
+            <p>프로필사진</p>
+          </td>
+          <td>
+            <input type="file" name="" id="">
+          </td>
+        </tr>
+        <tr>
+          <td class="as">
+            <p>생년월일</p>
+          </td>
+          <td>
+            <input type="date" name="" class="winput" id="">
+          </td>
+        </tr>
+        <tr>
+          <td class="as">
+            <p>성별</p>
+          </td>
+          <td>
+            <input type="radio" name="avc" id="male">
+            <label for="male">남</label>
+            <input type="radio" name="avc" id="female">
+            <label for="female">여</label>
+          </td>
+        </tr>
+        <tr>
+          <td class="as">
+            <p>직업</p>
+          </td>
+          <td>
+            <select name="asdf" class="winput" id="a">
+              <option value="1">학생</option>
+              <option value="2">회사원</option>
+              <option value="3">기술자</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td class="as">
+            <p>자기소개</p>
+          </td>
+          <td>
+            <textarea name="gha" class="winput" id="b" cols="20" rows="3"></textarea>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div style="text-align: center;background-color: aqua;">
+      <button class="zxz" onclick="asdf()">
+        <p>취소</p>
+      </button>
+      <button class="zx" onclick="asd()">
+        <p>회원가입</p>
+      </button>
+    </div>
+  </form>
+  </div>
+  <script>
+    function asd() {
+      alert('서비스 점검중입니다')
+    }
+    function asdf() {
+    (location || window.location || document.location).reload();
+}
+    </script>
+</body>
+</html>

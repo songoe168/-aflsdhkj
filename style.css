@@ -1,0 +1,43 @@
+.as {
+    height:40px;
+    background-color: gray;
+    text-align: center;
+    width: 200px;
+    border: 1px;
+}
+.sa {
+    border-top: 1px solid black;
+}
+.qw {
+    background-color: blue;
+    color: white;
+    height: 30px;
+    border-radius: 6px;
+}
+.winput {
+    width: 200px;
+    height: 30px;
+}
+.wq {
+    border-bottom: 1px solid gray;
+}
+.zx {
+    background-color: blueviolet;
+    height: 45px;
+    width: 200px;
+    margin: 25px;
+    float: left;
+    
+}
+.zxz {
+    height: 45px;
+    width: 200px;
+    margin: 25px;
+    float: left;
+    border: 0 solid black;
+}
+#main {
+    height: 900px;
+    width: 500px;
+    
+}
